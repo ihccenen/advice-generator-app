@@ -1,0 +1,57 @@
+.wrapper {
+  padding-inline: 1.8em;
+}
+
+.adviceNumber {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 600;
+  color: hsl(150, 100%, 66%);
+}
+
+.advice {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1em;
+  max-width: 27ch;
+}
+
+.picture img {
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: hsl(150, 100%, 66%);
+  padding: 1.5em;
+  transform: translateY(45%);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-inline: auto;
+  max-width: min-content;
+}
+
+.button:hover {
+  box-shadow: 0 0 25px 1px hsl(150, 100%, 66%);
+}
+
+@media (min-width: 750px) {
+  .adviceNumber {
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .advice {
+    font-size: 1.7rem;
+    line-height: 1.4;
+    padding: 0.9em 1em;
+    margin-bottom: 0.85rem;
+  }
+}
